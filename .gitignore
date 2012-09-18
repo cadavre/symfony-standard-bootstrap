@@ -1,5 +1,6 @@
 # Bootstrap
 app/bootstrap*
+composer.phar
 
 # Symfony directories
 vendor/*
