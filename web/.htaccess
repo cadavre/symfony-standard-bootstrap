@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ app_dev.php [QSA,L]
+</IfModule>
+
+php_value xdebug.remote_enable on
+php_value xdebug.remote_port 9000
+php_value xdebug.remote_host localhost
+php_value idekey netbeans-xdebug
+
+# php_value xdebug.profiler_enable 1
+# php_value xdebug.profiler_output_dir "/tmp/"
