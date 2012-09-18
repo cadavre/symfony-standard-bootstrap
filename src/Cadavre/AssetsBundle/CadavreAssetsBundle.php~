@@ -1,0 +1,9 @@
+<?php
+
+namespace cadavre\AssetsBundle;
+
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
+class cadavreAssetsBundle extends Bundle
+{
+}
